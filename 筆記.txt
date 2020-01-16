@@ -8,6 +8,7 @@ git checkout -b 分支名稱		//建立新的分支
 git checkout 分支名稱			//切換到其他分支
 git commit -m "Create 檔案名"   	//將檔案輸出成節點
 git config --global core.editor notepad	//可讓分支 merge 時產生 notepad 檔案
+git diff 檔案名稱 			//查看檔案前後跟新差異
 git init 				//開啟git
 git log 				//查看已產生之節點
 git config --global alias.lg "log --color --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --"
