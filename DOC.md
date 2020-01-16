@@ -10,3 +10,13 @@
 **markdown** 粗體  
 ***markdown*** 斜體+粗體  
 ~~markdown~~ 刪除線  
+
+---
+
+<https://google.com>
+
+[Google](https://google.com)
+
+---
+
+Hello `markdown`
