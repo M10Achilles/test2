@@ -1,0 +1,33 @@
+cd 資料夾/				//選取資料夾
+cd ..					//回上一層			
+-------------------------------------------------------------
+git add 檔案名.副檔名 			//fork 的 Changes
+git add .				//當前目錄所有檔案往下
+git branch 				//查看目前分支
+git checkout -b 分支名稱		//建立新的分支 
+git checkout 分支名稱			//切換到其他分支
+git commit -m "Create 檔案名"   	//將檔案輸出成節點
+git config --global core.editor notepad	//可讓分支 merge 時產生 notepad 檔案
+git init 				//開啟git
+git log 				//查看已產生之節點
+git config --global alias.lg "log --color --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --"
+git lg 					//上面貼上後再輸入這個就能比較好看
+git merge 分支 --no-ff --no-edit	//把分支 merge 到 master
+git reset 檔案名.副檔名 		//Changes 回到上面
+git status 				//查看 git 狀態
+-------------------------------------------------------------
+mkdir "資料夾名稱"			//建立資料夾
+-------------------------------------------------------------
+touch 檔案名.副檔名 			//建立檔案
+-------------------------------------------------------------
+新檔案上傳至github： 
+git remote add origin https://github.com/M10Achilles/test2.git
+git push -u origin master
+分支上傳：
+git push -u origin 分支
+已有上傳過後push：
+git push
+下載雲端檔案：
+git clone 網址
+-------------------------------------------------------------
+abcdefghijklmnopqrstuvwsyz
