@@ -38,3 +38,5 @@ hello()
 
 
 [Go to H1](#H1)
+
+[Go to page A](./a.md)
