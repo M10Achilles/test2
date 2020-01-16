@@ -34,7 +34,4 @@ def hello():
     print('Hello world')
 hello()
 ```
-
-```java
-System.out.println("殺死家豪");
-```
+![](./yasuo.jfif)
